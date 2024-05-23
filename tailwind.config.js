@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+        goldenyellow:'#E6C744',
+        yellow1:'#EBD96B',
+        orange1:'#f69f04',
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -14,5 +18,8 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+},
+  plugins: [
+    require('daisyui'),
+  ],
 };
